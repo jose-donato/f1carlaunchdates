@@ -1,0 +1,18 @@
+---
+import {getEntry} from "astro:content"
+import Layout from '../layouts/Layout.astro';
+
+const launch2024 = await getEntry("launchDates", "2024")
+
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		{launch2024.data.map((launch) => (
+			<div>
+				<h1>{launch.team}</h1>
+				<p>{launch.date}</p>
+			</div>
+		))}
+	</main>
+</Layout>

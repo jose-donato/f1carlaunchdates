@@ -1,0 +1,122 @@
+[
+    {
+        "team": "MoneyGram Haas F1 Team",
+        "drivers": [
+            "Nico Hulkenberg",
+            "Kevin Magnussen"
+        ],
+        "date": "",
+        "location": "",
+        "status": "not-announced-yet",
+        "sourceLink": "",
+        "eventLink": ""
+    },
+    {
+        "team": "Oracle Red Bull Racing",
+        "drivers": [
+            "Max Verstappen",
+            "Sergio Perez"
+        ],
+        "date": "",
+        "location": "",
+        "status": "not-announced-yet",
+        "sourceLink": "",
+        "eventLink": ""
+    },
+    {
+        "team": "Williams Racing",
+        "drivers": [
+            "Alex Albon",
+            "Logan Sargeant"
+        ],
+        "date": "",
+        "location": "",
+        "status": "not-announced-yet",
+        "sourceLink": "",
+        "eventLink": ""
+    },
+    {
+        "team": "Stake F1 Team Kick Sauber",
+        "drivers": [
+            "Valtteri Bottas",
+            "Zhou Guanyu"
+        ],
+        "date": "",
+        "location": "",
+        "status": "not-announced-yet",
+        "sourceLink": "",
+        "eventLink": ""
+    },
+    {
+        "team": "Mercedes-AMG PETRONAS Formula One Team",
+        "drivers": [
+            "Lewis Hamilton",
+            "George Russell"
+        ],
+        "date": "",
+        "location": "",
+        "status": "not-announced-yet",
+        "sourceLink": "",
+        "eventLink": ""
+    },
+    {
+        "team": "Scuderia Ferrari",
+        "drivers": [
+            "Charles Leclerc",
+            "Carlos Sainz"
+        ],
+        "date": "",
+        "location": "",
+        "status": "not-announced-yet",
+        "sourceLink": "",
+        "eventLink": ""
+    },
+    {
+        "team": "McLaren Formula 1 Team",
+        "drivers": [
+            "Lando Norris",
+            "Oscar Piastri"
+        ],
+        "date": "",
+        "location": "",
+        "status": "not-announced-yet",
+        "sourceLink": "",
+        "eventLink": ""
+    },
+    {
+        "team": "Aston Martin Aramco Formula One Team",
+        "drivers": [
+            "Fernando Alonso",
+            "Lance Stroll"
+        ],
+        "date": "",
+        "location": "",
+        "status": "not-announced-yet",
+        "sourceLink": "",
+        "eventLink": ""
+    },
+    {
+        "team": "BWT Alpine F1 Team",
+        "drivers": [
+            "Esteban Ocon",
+            "Pierre Gasly"
+        ],
+        "date": "",
+        "location": "",
+        "status": "not-announced-yet",
+        "sourceLink": "",
+        "eventLink": ""
+    },
+    {
+        "team": "Scuderia AlphaTauri RB",
+        "drivers": [
+            "Daniel Ricciardo",
+            "Yuki Tsunoda"
+        ],
+        "date": "",
+        "location": "",
+        "status": "not-announced-yet",
+        "sourceLink": "",
+        "eventLink": ""
+    }
+]
