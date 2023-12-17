@@ -5,9 +5,9 @@ const launchSchema = z.object({
   drivers: z.array(z.string()),
   date: z.string(),
   location: z.string(),
-  status: z.enum(["announced", "not-announced-yet"]),
   sourceLink: z.string(),
   eventLink: z.string(),
+  primaryColor: z.string()
 });
 
 const launchDatesCollection = defineCollection({ 

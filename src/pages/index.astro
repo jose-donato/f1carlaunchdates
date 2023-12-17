@@ -1,18 +1,102 @@
 ---
-import {getEntry} from "astro:content"
-import Layout from '../layouts/Layout.astro';
+import { getEntry } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import SEO_DATA from "../data/meta.json";
 
-const launch2024 = await getEntry("launchDates", "2024")
-
+const launch2024 = await getEntry("launchDates", "2024");
 ---
 
-<Layout title="Welcome to Astro.">
-	<main>
-		{launch2024.data.map((launch) => (
-			<div>
-				<h1>{launch.team}</h1>
-				<p>{launch.date}</p>
-			</div>
-		))}
-	</main>
+<Layout 
+title={SEO_DATA.title}
+	description={SEO_DATA.description}
+	keywords={SEO_DATA.keywords.join(", ")}
+>
+  <main class="container mx-auto py-32 px-5 md:px-0">
+    <div class="space-y-4 text-center mb-14 max-w-2xl mx-auto">
+      <h1 class="text-2xl lg:text-4xl font-semibold leading-none tracking-tight">
+        {SEO_DATA.titleEmoji}
+      </h1>
+      <p>
+        {SEO_DATA.description}
+      </p>
+	  <p>
+		For updates or questions message me on <a href="https://twitter.com/josedonato__" target="_blank" rel="noopener noreferrer" class="font-medium text-blue-600 hover:underline">Twitter</a>.
+		<br />
+		All code is open source, if you like it, star it on <a href="https://github.com/jose-donato/f1carlaunchdates" target="_blank" rel="noopener noreferrer" class="font-medium text-blue-600 hover:underline">GitHub</a>.
+	  </p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {
+        launch2024.data
+          .sort((a, b) => {
+            if (a.date === "") {
+              return 1;
+            }
+            if (b.date === "") {
+              return -1;
+            }
+            return new Date(a.date).getTime() - new Date(b.date).getTime();
+          })
+          .map((launch) => (
+            <div class="rounded-lg border shadow-sm border-white/10 p-6 bg-zinc-900/50 backdrop-blur backdrop-filter">
+              <div class="flex flex-col gap-1.5">
+                <div class="flex items-center gap-2">
+                  <span class="relative flex h-8 w-8 shrink-0 overflow-hidden rounded-full">
+                    <span
+                      class="flex h-full w-full items-center justify-center rounded-full text-sm"
+                      style={{
+                        backgroundColor: launch.primaryColor,
+                      }}
+                    >
+                      {launch.team.substring(0, 2).toUpperCase()}
+                    </span>
+                  </span>
+                  <h3 class="text-xl font-semibold leading-none tracking-tight truncate whitespace-nowrap">
+                    {launch.team}
+                  </h3>
+                </div>
+                <div class="mt-2 flex gap-1">
+                  <p class="">Lineup:</p>
+                  <p class="font-medium truncate whitespace-nowrap">{launch.drivers.join(" and ")}</p>
+                </div>
+              </div>
+              <div class="mt-2">
+                {!!launch.date ? (
+					<div class="flex gap-1">
+						<p class="">Launch event date:</p>
+						<p class="font-medium">{launch.date}</p>
+					</div>
+					<div class="flex gap-1 mt-2">
+					<p class="">Location: 
+							{
+								launch.location ? (
+									launch.location
+									) : (
+										"Not yet known"
+										)
+									}
+									</p>
+									</div>
+									<div class="mt-2">
+										<a href={launch.sourceLink}
+											target="_blank"
+											rel="noopener noreferrer"
+										class="font-medium text-blue-600 hover:underline">
+											Source
+											</a>
+											</div>
+                ) : 
+					<p>
+						The launch date is not yet known.
+					</p>
+			}
+              </div>
+            </div>
+          ))
+      }
+    </div>
+	<p class="mt-20 text-center">
+		Built with <a href="https://astro.build/" target="_blank" rel="noopener noreferrer" class="font-medium text-blue-600 hover:underline">Astro</a> and <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" class="font-medium text-blue-600 hover:underline">TailwindCSS</a>.
+	</p>
+  </main>
 </Layout>
