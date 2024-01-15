@@ -1,122 +1,92 @@
 [
-    {
-        "team": "MoneyGram Haas F1 Team",
-        "primaryColor": "#000000",
-        "drivers": [
-            "Nico Hulkenberg",
-            "Kevin Magnussen"
-        ],
-        "date": "",
-        "location": "",
-        "sourceLink": "",
-        "eventLink": ""
-    },
-    {
-        "team": "Oracle Red Bull Racing",
-        "primaryColor": "#1E41FF",
-        "drivers": [
-            "Max Verstappen",
-            "Sergio Perez"
-        ],
-        "date": "",
-        "location": "",
-        "sourceLink": "",
-        "eventLink": ""
-    },
-    {
-        "team": "Williams Racing",
-        "primaryColor": "#00A0DE",
-        "drivers": [
-            "Alex Albon",
-            "Logan Sargeant"
-        ],
-        "date": "",
-        "location": "",
-        "sourceLink": "",
-        "eventLink": ""
-    },
-    {
-        "team": "Stake F1 Team Kick Sauber",
-        "primaryColor": "#9B0000",
-        "drivers": [
-            "Valtteri Bottas",
-            "Zhou Guanyu"
-        ],
-        "date": "",
-        "location": "",
-        "sourceLink": "",
-        "eventLink": ""
-    },
-    {
-        "team": "Mercedes-AMG PETRONAS Formula One Team",
-        "primaryColor": "#00D2BE",
-        "drivers": [
-            "Lewis Hamilton",
-            "George Russell"
-        ],
-        "date": "",
-        "location": "",
-        "sourceLink": "",
-        "eventLink": ""
-    },
-    {
-        "team": "Scuderia Ferrari",
-        "primaryColor": "#DC0000",
-        "drivers": [
-            "Charles Leclerc",
-            "Carlos Sainz"
-        ],
-        "date": "2024-02-13",
-        "location": "",
-        "sourceLink": "https://it.motorsport.com/f1/news/f1-vasseur-ferrari-nuova-al-95-ma-non-sara-una-rivoluzione/10558537/",
-        "eventLink": ""
-    },
-    {
-        "team": "McLaren Formula 1 Team",
-        "primaryColor": "#FF8700",
-        "drivers": [
-            "Lando Norris",
-            "Oscar Piastri"
-        ],
-        "date": "",
-        "location": "",
-        "sourceLink": "",
-        "eventLink": ""
-    },
-    {
-        "team": "Aston Martin Aramco Formula One Team",
-        "primaryColor": "#006F62",
-        "drivers": [
-            "Fernando Alonso",
-            "Lance Stroll"
-        ],
-        "date": "",
-        "location": "",
-        "sourceLink": "",
-        "eventLink": ""
-    },
-    {
-        "team": "BWT Alpine F1 Team",
-        "primaryColor": "#0090FF",
-        "drivers": [
-            "Esteban Ocon",
-            "Pierre Gasly"
-        ],
-        "date": "",
-        "location": "",
-        "sourceLink": "",
-        "eventLink": ""
-    },
-    {
-        "team": "Scuderia AlphaTauri RB",
-        "primaryColor": "#000000",
-        "drivers": [
-            "Daniel Ricciardo",
-            "Yuki Tsunoda"
-        ],
-        "date": "",
-        "location": "",
-        "sourceLink": "",
-        "eventLink": ""
-    }
+	{
+		"team": "MoneyGram Haas F1 Team",
+		"primaryColor": "#000000",
+		"drivers": ["Nico Hulkenberg", "Kevin Magnussen"],
+		"date": "",
+		"location": "",
+		"sourceLink": "",
+		"eventLink": ""
+	},
+	{
+		"team": "Oracle Red Bull Racing",
+		"primaryColor": "#1E41FF",
+		"drivers": ["Max Verstappen", "Sergio Perez"],
+		"date": "",
+		"location": "",
+		"sourceLink": "",
+		"eventLink": ""
+	},
+	{
+		"team": "Williams Racing",
+		"primaryColor": "#00A0DE",
+		"drivers": ["Alex Albon", "Logan Sargeant"],
+		"date": "",
+		"location": "",
+		"sourceLink": "",
+		"eventLink": ""
+	},
+	{
+		"team": "Stake F1 Team Kick Sauber",
+		"primaryColor": "#9B0000",
+		"drivers": ["Valtteri Bottas", "Zhou Guanyu"],
+		"date": "",
+		"location": "",
+		"sourceLink": "",
+		"eventLink": ""
+	},
+	{
+		"team": "Mercedes-AMG PETRONAS Formula One Team",
+		"primaryColor": "#00D2BE",
+		"drivers": ["Lewis Hamilton", "George Russell"],
+		"date": "2024-02-14",
+		"location": "Silverstone",
+		"sourceLink": "https://www.crash.net/f1/news/1043385/1/mercedes-confirm-launch-date-eagerlyanticipated-w15-f1-car",
+		"eventLink": ""
+	},
+	{
+		"team": "Scuderia Ferrari",
+		"primaryColor": "#DC0000",
+		"drivers": ["Charles Leclerc", "Carlos Sainz"],
+		"date": "2024-02-13",
+		"location": "",
+		"sourceLink": "https://it.motorsport.com/f1/news/f1-vasseur-ferrari-nuova-al-95-ma-non-sara-una-rivoluzione/10558537/",
+		"eventLink": ""
+	},
+	{
+		"team": "McLaren Formula 1 Team",
+		"primaryColor": "#FF8700",
+		"drivers": ["Lando Norris", "Oscar Piastri"],
+		"date": "",
+		"location": "",
+		"sourceLink": "",
+		"eventLink": ""
+	},
+	{
+		"team": "Aston Martin Aramco Formula One Team",
+		"primaryColor": "#006F62",
+		"drivers": ["Fernando Alonso", "Lance Stroll"],
+		"date": "",
+		"location": "",
+		"sourceLink": "",
+		"eventLink": ""
+	},
+	{
+		"team": "BWT Alpine F1 Team",
+		"primaryColor": "#0090FF",
+		"drivers": ["Esteban Ocon", "Pierre Gasly"],
+		"date": "2024-02-07",
+		"location": "TBA",
+		"sourceLink": "https://www.the-race.com/formula-1/alpine-2024-f1-car-launch-date-revealed/",
+		"eventLink": ""
+	},
+	{
+		"team": "Scuderia AlphaTauri RB",
+		"primaryColor": "#000000",
+		"drivers": ["Daniel Ricciardo", "Yuki Tsunoda"],
+		"date": "",
+		"location": "",
+		"sourceLink": "",
+		"eventLink": ""
+	}
 ]
