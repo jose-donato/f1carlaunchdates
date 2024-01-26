@@ -3,7 +3,7 @@
 		"team": "MoneyGram Haas F1 Team",
 		"primaryColor": "#000000",
 		"drivers": ["Nico Hulkenberg", "Kevin Magnussen"],
-		"date": "",
+		"date": "2024-02-02",
 		"location": "",
 		"sourceLink": "",
 		"eventLink": ""
@@ -12,7 +12,7 @@
 		"team": "Oracle Red Bull Racing",
 		"primaryColor": "#1E41FF",
 		"drivers": ["Max Verstappen", "Sergio Perez"],
-		"date": "",
+		"date": "2024-02-15",
 		"location": "",
 		"sourceLink": "",
 		"eventLink": ""
@@ -21,7 +21,7 @@
 		"team": "Williams Racing",
 		"primaryColor": "#00A0DE",
 		"drivers": ["Alex Albon", "Logan Sargeant"],
-		"date": "",
+		"date": "2024-02-05",
 		"location": "",
 		"sourceLink": "",
 		"eventLink": ""
@@ -30,7 +30,7 @@
 		"team": "Stake F1 Team Kick Sauber",
 		"primaryColor": "#9B0000",
 		"drivers": ["Valtteri Bottas", "Zhou Guanyu"],
-		"date": "",
+		"date": "2024-02-05",
 		"location": "",
 		"sourceLink": "",
 		"eventLink": ""
@@ -57,7 +57,7 @@
 		"team": "McLaren Formula 1 Team",
 		"primaryColor": "#FF8700",
 		"drivers": ["Lando Norris", "Oscar Piastri"],
-		"date": "",
+		"date": "2024-02-14",
 		"location": "",
 		"sourceLink": "",
 		"eventLink": ""
@@ -66,7 +66,7 @@
 		"team": "Aston Martin Aramco Formula One Team",
 		"primaryColor": "#006F62",
 		"drivers": ["Fernando Alonso", "Lance Stroll"],
-		"date": "",
+		"date": "2024-02-12",
 		"location": "",
 		"sourceLink": "",
 		"eventLink": ""
